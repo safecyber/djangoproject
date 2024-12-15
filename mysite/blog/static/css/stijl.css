@@ -1,0 +1,52 @@
+/* Header-styling */
+header {
+    background-color: orange;
+    color: black;
+    padding: 20px;
+    text-align: left;
+    font-size: 1.8em;
+}
+
+/* Footer-styling */
+footer {
+    background-color: orange;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Artikelen */
+article {
+    background-color: #ffc0cb; /* Lichtroze */
+    border: 3px solid red;
+    width: 500px;
+    margin: 40px auto;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+article h2 a {
+    color: orange; /* Rode titel */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article h2 a:hover {
+    text-decoration: underline;
+}
+
+time.date {
+    font-size: 0.9em;
+    color: #555;
+    display: block;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: #b02d2d; /* Donkerrode achtergrond */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
